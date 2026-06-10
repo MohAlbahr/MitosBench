@@ -34,32 +34,6 @@ The pipeline processes **629 WSIs/ROIs** containing approximately **171k mitotic
 - Cross-domain robustness testing
 - Systematic comparison of architectures and fine-tuning strategies
 
-## Citation
-
-If you use this code or benchmark, please cite the original paper:
-
-```bibtex
-@ARTICLE{11480928,
-  author={Albahri, Mohamed and Kukuk, Markus and Nensa, Felix and Lodde, Georg and Livingstone, Elisabeth and Schadendorf, Dirk},
-  journal={IEEE Access}, 
-  title={MitosBench: A Pipeline and Controlled Benchmark for Evaluating Pathology Foundation Models for Mitotic Figure Detection in Histopathology Whole-Slide Images}, 
-  year={2026},
-  volume={14},
-  number={},
-  pages={59466--59485},
-  keywords={Benchmark;computational pathology;domain shift;deep learning;foundation models;mitotic figure detection;segmentation and detection},
-  doi={10.1109/ACCESS.2026.3683719}
-}
-```
-
-## Acknowledgments
-
-This work builds upon and is inspired by the methodology presented in:
-
-**Virchow: A Large Vision Model for Computational Pathology** ([https://doi.org/10.1038/s42003-024-07398-6](https://doi.org/10.1038/s42003-024-07398-6))
-
-We acknowledge the contributions of the computational pathology community and the foundation model development efforts that made this benchmark possible.
-
 ## Directory Structure
 
 ```
@@ -329,24 +303,38 @@ Ensure you have the correct CUDA version and torch installation:
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
 
-## License
 
-This project is distributed under the [LICENSE](LICENSE) file included in the repository.
 
-## Contact & Support
+## Citation
 
-For questions, issues, or contributions, please contact:
+If you use this code or benchmark, please cite the original paper:
 
-**Mohamed Albahri**
-- Institution: University/Research Center
-- Email: [contact@email.com]
-- GitHub: [username]
+```bibtex
+@ARTICLE{11480928,
+  author={Albahri, Mohamed and Kukuk, Markus and Nensa, Felix and Lodde, Georg and Livingstone, Elisabeth and Schadendorf, Dirk},
+  journal={IEEE Access}, 
+  title={MitosBench: A Pipeline and Controlled Benchmark for Evaluating Pathology Foundation Models for Mitotic Figure Detection in Histopathology Whole-Slide Images}, 
+  year={2026},
+  volume={14},
+  number={},
+  pages={59466--59485},
+  keywords={Benchmark;computational pathology;domain shift;deep learning;foundation models;mitotic figure detection;segmentation and detection},
+  doi={10.1109/ACCESS.2026.3683719}
+}
+```
+
+## Acknowledgments
+
+This work builds upon and is inspired by the methodology presented in:
+
+**A deep learning framework deploying segment anything to detect pan-cancer mitotic figures from haematoxylin and eosin-stained slides** ([https://doi.org/10.1038/s42003-024-07398-6](https://doi.org/10.1038/s42003-024-07398-6))
+
+We acknowledge the contributions of the computational pathology community and the foundation model development efforts that made this benchmark possible.
 
 ## References
 
 - **Original Paper**: Albahri et al., IEEE Access, 2026. DOI: 10.1109/ACCESS.2026.3683719
 - **PathOSAM**: Segment Anything Model adapted for histopathology
-- **Inspiration**: Virchow: A Large Vision Model for Computational Pathology. Nature Communications. DOI: 10.1038/s42003-024-07398-6
 
 ---
 
