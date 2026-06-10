@@ -1,0 +1,5 @@
+dataset/masks_dataset_with_source.csv
+
+# Large generated dataset files
+dataset/masks_dataset.csv
+dataset/masks_dataset_with_source.csv
